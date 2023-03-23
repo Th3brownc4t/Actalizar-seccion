@@ -9,16 +9,14 @@ input{
     border: solid 1px rgba(0, 0, 0, 0.342);
     padding: 1.5rem 1rem;
 }
-
+.main{
+    overflow: hidden;
+}
 .formu{
     padding: 0 6rem;
 }
 
 .fondo{
-    background:linear-gradient(
-    rgba(0, 0, 0, 0.50),
-    rgba(0, 0, 0, 0.50)
-    ), url(./Images/car.jpg) no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -29,6 +27,7 @@ input{
 .imagen{
     width: 85px;
     height:100%;
+    cursor: pointer;
 }
 .descripcion{
     min-height: 100px;
